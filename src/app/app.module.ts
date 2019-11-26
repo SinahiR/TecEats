@@ -5,6 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './componentes/home/home.component';
 import { DescripcionComponent } from './componentes/descripcion/descripcion.component';
+import { DescripcionaguasComponent } from './componentes/descripcionaguas/descripcionaguas.component';
+import { DescripciontortasComponent } from './componentes/descripciontortas/descripciontortas.component';
+import { DescripciondonasComponent } from './componentes/descripciondonas/descripciondonas.component';
+
 
 //IMPORTAR
 
@@ -12,7 +16,11 @@ import { DescripcionComponent } from './componentes/descripcion/descripcion.comp
   declarations: [
     AppComponent,
     HomeComponent,
-    DescripcionComponent
+    DescripcionComponent,
+    DescripcionaguasComponent,
+    DescripciontortasComponent,
+    DescripciondonasComponent
+   
   ],
   imports: [
     BrowserModule,

@@ -4,6 +4,11 @@ import { Routes, RouterModule } from '@angular/router';
 //IMPORTAR
 import {HomeComponent } from './componentes/home/home.component';
 import {DescripcionComponent } from './componentes/descripcion/descripcion.component';
+import {DescripcionaguasComponent } from './componentes/descripcionaguas/descripcionaguas.component';
+import { DescripciontortasComponent} from './componentes/descripciontortas/descripciontortas.component';
+import {DescripciondonasComponent } from './componentes/descripciondonas/descripciondonas.component';
+
+
 
 
 const routes: Routes = [
@@ -17,9 +22,22 @@ const routes: Routes = [
   component: HomeComponent
 },
 {
-  path:'descripcion',
+  path:'descripcionburritos',
   component: DescripcionComponent
+},
+{
+  path:'descripcionaguas',
+  component: DescripcionaguasComponent
+},
+{
+  path:'descripciontortas',
+  component: DescripciontortasComponent
+},
+{
+  path:'descripciondonas',
+  component: DescripciondonasComponent
 }
+
 
 
 ];
