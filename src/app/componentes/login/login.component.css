@@ -3,7 +3,6 @@ body {
     background-size: cover;
 }
 
-
 .imagen-usuario {
     margin-top: -50px;
     margin-bottom: 35px;
@@ -22,7 +21,8 @@ body {
     margin-top: 25%;
     padding: 0;
 }
-.seccion-principal:hover{
+
+.seccion-principal:hover {
     filter: saturate(180%);
 }
 
@@ -56,9 +56,11 @@ body {
 .form-group#contrasena::before {
     content: "\f023";
 }
+
 .form-group#numero::before {
     content: "\f095";
 }
+
 button {
     width: 60%;
     margin: 5px 0 25px;
@@ -88,11 +90,14 @@ button {
     color: aliceblue;
     box-shadow: 0px 0px 3px #ffffff;
 }
-#logo{
-   
+
+#logo {
     height: 50px;
     float: left;
     margin-left: -60px;
 }
 
-
+#pestanas a {
+    color: #000000;
+    font-size: 20px;
+}
