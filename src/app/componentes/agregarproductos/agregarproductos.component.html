@@ -10,26 +10,47 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <style>
-        body {
-            margin: 20px
-        }
 
         .form {
             margin-left: 650px;
 
+        }
+        .pie
+        {
+            width: auto;
+            height: 100px;
+            background-color: gray;
+            color: white;
+        }
+        body
+        {
+            width: auto;
+        }
+        .logo
+        {
+            width: 150px;
+            margin-left: 20px;
+        }
+        .barra
+        {
+            width: 2000px;
+            height: 80px;
         }
     </style>
 </head>
 
 <body>
     <!--NAVBAR-->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-
-        <a class="navbar-brand" href="#">
-            <img src="./../../../assets/Logoeats-grande.png" alt="logo" style="width:140px;">
+        <table>
+            <tr>
+                <td>
+        <a class="logo" href="#">
+            <img src="./../../../assets/Logoeats-grande.png" alt="logo" style="width:140px; height: 80px;">
         </a>
-
+    </td>
         <!-- Links -->
+        <td class="barra">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <ul class="navbar-nav">
             <li class="nav-item">
                 <a class="nav-link" href="#">Link 1</a>
@@ -48,18 +69,19 @@
             <button class="btn btn-success" type="submit">Buscar</button>
         </form>
     </nav>
-<div class="col-12">
-    <div class="row d-flex flex-row-reverse">
+</td>
+</tr>
+</table>
+<div >
+    <div class=" mr-2 d-flex flex-row-reverse">
         <a href="../crearproductos/crearproductos.component.html">
         <button class="btn btn-primary  mt-2">
             <img src='./../../../assets/productos.png' width="40px" />
             Agregar Producto
         </button>
     </a>
-        <br>
     </div>
-    <br>
-    <div class="row">
+    <div class="row ml-1 mr-1 mt-2">
         <div class="card col-lg-4 col-md-6 col-sm-12 col-xs-12 ">
             <br>
             <img class="card-img-top" style="height:300px"
@@ -112,7 +134,7 @@
                     </div>
                 </div>
     </div> <!-- CIERRE DIV ROW-->
-    <div class="row">
+    <div class="row ml-1 mr-1">
         <div class="card col-lg-4 col-md-6 col-sm-12 col-xs-12">
             <br>
             <img class="card-img-top" style="height:300px"
@@ -165,14 +187,13 @@
                 </div>
                 </div>
     </div> <!-- CIERRE DIV ROW-->
-    <br>
-    <ul class="pagination justify-content-center">
+    <ul class="pagination justify-content-center mt-2 mb-2">
         <li class="page-item"><a class="page-link" href="javascript:void(0);">Previous</a></li>
         <li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
         <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
         <li class="page-item"><a class="page-link" href="javascript:void(0);">Next</a></li>
       </ul>
-      <div class="jumbotron bg-dark text-light">
+      <div class="pie">
           <h1 align-center>Tec Eats</h1>      
           <p>Todos los derechos reservados</p>
       </div>
