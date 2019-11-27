@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+
+    <!-- FRAMEWORK BOOTSTRAP para el estilo de la pagina-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Los iconos tipo Solid de Fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+
+    <!--Nuestro css-->
+
+   
+
+
+
+</head>
+
+<body>
+   
+    <div class="container mt-3">
+      
+        <br>
+        <!-- Nav tabs -->
+        <div id="pestanas">
+        <ul class="nav nav-tabs">
+          
+          <li class="nav-item">
+            <a class="nav-link active btn btn-outline-primary" data-toggle="tab" href="#sesion">Incio/Sesion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-outline-success" data-toggle="tab" href="#men">Registro</a>
+          </li>
+       
+        </ul>
+    </div>
+      
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div id="sesion" class="container tab-pane active"><br>
+            <div class="modal-dialog text-center">
+
+
+                <div class="jumbotron jumbotron-fluid" id="jumbo">
+                    <img src="../../../assets/Logoeats.png" id="logo">
+                   <h1>Inicio de Sesión</h1> 
+                </div>
+                <div class="col-sm-8 seccion-principal">
+                    <div class="modal-content">
+                        <div class="col-12 imagen-usuario">
+                            <img src="../../../assets/usuario2.png">
+                        </div>
+                        <form action="" class="col-12">
+                            <div class="form-group" id="usuario">
+                                <input type="text" class="form-control" placeholder="Nombre de usuario">
+        
+                            </div>
+                            <div class="form-group" id="contrasena">
+                                <input type="password" class="form-control" placeholder="Contraseña">
+        
+                            </div>
+                            
+                            <button type="submit" class="btn btn-secondary"><i class="fas fa-sign-in-alt"></i> Ingresar</button>
+        
+        
+                        </form>
+                        <div class="col-12 registro">
+                            <a href="#">Registrarse</a>
+        
+                        </div>
+        
+        
+                    </div>
+        
+                </div>
+        
+            </div>
+           
+            
+          </div>
+          <div id="men" class="container tab-pane fade"><br>
+            <div class="modal-dialog text-center">
+
+
+                <div class="jumbotron jumbotron-fluid" id="jumbo">
+                    <img src="../../../assets/Logoeats.png" id="logo">
+                    <h1 align="center"> Registro</h1>
+                </div>
+                <div class="col-sm-10 seccion-principal">
+                    <div class="modal-content">
+                        <div class="col-12 imagen-usuario">
+                            <img src="../../../assets/usuario2.png">
+                        </div>
+                        <form action="" class="col-12">
+                            <div class="form-group" id="usuario">
+                                <input type="text" class="form-control" placeholder="Nombre de usuario" required>
+        
+                            </div>
+                            <div class="form-group" id="contrasena">
+                                <input type="password" class="form-control" placeholder="*****"  required>
+        
+                            </div>
+                            <div class="form-group" id="contrasena">
+                                <input type="password" class="form-control" placeholder="Confirmar/contraseña" required>
+        
+                            </div>
+        
+                            <div class="form-group" id="numero">
+                                <input type="number" placeholder="+52....." class="form-control" required >
+                            </div>
+        
+        
+        
+                            <button type="submit" class="btn btn-secondary"><i class="fas fa-sign-in-alt"></i>
+                                Registrate</button>
+        
+        
+                        </form>
+                        <div class="col-12 registro">
+                            <a href="#">Registrarse</a>
+        
+                        </div>
+        
+        
+                    </div>
+        
+                </div>
+        
+        
+        
+                
+        
+            </div>
+          </div>
+        </div>
+      </div>
+
+</body>
+
+</html>

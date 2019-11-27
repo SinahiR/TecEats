@@ -1,0 +1,103 @@
+body {
+    background: url(../../../assets/fondo.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.imagen-usuario {
+    margin-top: -50px;
+    margin-bottom: 35px;
+}
+
+.imagen-usuario img {
+    width: 150px;
+    height: 150px;
+    box-shadow: 0px 0px 3px #000000;
+    border-radius: 75%;
+    background: blanchedalmond;
+}
+
+.seccion-principal {
+    margin: 0 auto;
+    margin-top: 25%;
+    padding: 0;
+}
+
+.seccion-principal:hover {
+    filter: saturate(180%);
+}
+
+.modal-content {
+    background-color: #3b4652;
+    opacity: .95;
+    padding: 0 20px;
+    box-shadow: 0px 0px 3px #848484;
+}
+
+.form-group input {
+    height: 50px;
+    font-size: 18px;
+    border: 0;
+    padding-left: 54px;
+    border-radius: 10px;
+}
+
+.form-group#usuario::before {
+    content: "\f007";
+}
+
+.form-group::before {
+    font-family: "Font Awesome\ 5 Free";
+    position: absolute;
+    left: 28px;
+    font-size: 30px;
+    padding: 3px;
+}
+
+.form-group#contrasena::before {
+    content: "\f023";
+}
+
+.form-group#numero::before {
+    content: "\f095";
+}
+
+button {
+    width: 60%;
+    margin: 5px 0 25px;
+}
+
+.registro {
+    padding: 5px 0;
+}
+
+.registro a {
+    color: blanchedalmond;
+}
+
+#jumbo {
+    position: relative;
+    padding: 0;
+    margin-top: 70px;
+    background-color: #3b4652;
+    margin-top: 23px;
+    text-align: center;
+    margin-bottom: 0;
+    opacity: .95;
+    border: 0;
+    padding-left: 54px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: aliceblue;
+    box-shadow: 0px 0px 3px #ffffff;
+}
+
+#logo {
+    height: 50px;
+    float: left;
+    margin-left: -60px;
+}
+
+#pestanas a {
+    color: #000000;
+    font-size: 20px;
+}
