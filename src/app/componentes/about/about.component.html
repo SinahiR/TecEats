@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tus Productos</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <style>
+        .form {
+            margin-left: 688px;
+        }
+
+
+        .form {
+            margin-left: 688px;
+        }
+
+        .carousel-inner img {
+            width: 600px;
+            border: 3px solid #000;
+
+        }
+
+        .carousel-control-next,
+        .carousel-control-prev {
+            filter: invert(100%);
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <table>
+        <tr>
+            <td>
+                <a class="navbar-brand ml-2" href="#">
+                    <img src="./../../../assets/Logoeats-grande.png" alt="logo" style="width:140px;">
+                </a>
+            </td>
+            <td class="bg-dark">
+                <nav class="navbar navbar-expand-sm navbar-dark">
+                    <ul class="navbar-nav  ml-2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link 3</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline form" action="/action_page.php">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Busca algo de interes">
+                        <button class="btn btn-primary" type="submit">Buscar</button>
+                    </form>
+                </nav>
+            </td>
+        </tr>
+    </table>
+
+
+    <!--CARD -->
+    <div class="mt-1">
+        <div class="row">
+            <!--CARD-->
+            <div class=" col-lg-7 col-md-6 col-sm-12 col-xs-12">
+
+                <br>
+
+                <div class="card">
+                    <div class="card-header" style="text-align: center;">
+                        <h3>Acerca de TecEats</h3>
+                    </div>
+                    <div class="card-body">
+
+                        <p class="card-text" style="text-align: center;"><strong>¿Que es TecEats?</strong></p>
+
+                        <p class="text-info" style="text-align:justify;">TecEats es una pagina diseñada para los
+                            negocios de comida
+                            que se encuentran en el Instituto Tecnologico de Tepic y sus alrededores, nuestros objetivos
+                            son ayudar a las personas que tienen estos negocios/puestos de comida ya que muchos de ellos
+                            son alumnos con bajos recursos que buscan un ingreso extra para sus estudios ademas de
+                            proporcionar una comida mas rapida a aquellos alumnos que se quedan a comer en el Instituto
+                            por lo que cuentan con muy poco tiempo para comer y buscan algo rapido y cerca. Con la ayuda
+                            de esta pagina los alumnos podran conocer que negocios de comida ofrece el ITTepic y
+                            conseguir una
+                            comida mas rapida al mismo tiempo que puedes ayudar a un alumno. </p>
+
+                        <br>
+                        <p><strong>Esta pagina fue creada por: </strong>
+                            <br> -Alejandra Grande de Uña - Ing. TIC'S
+                            <br> -Ricardo Lopez Perales - Ing. TIC'S
+                            <br> -Sinahi Ruiz Rodriguez - Ing. TIC'S
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <!--CARROUSEL -->
+
+            <div id="demo" class="carousel slide col-lg-5 col-md-6 col-sm-12 col-xs-12" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                    <li data-target="#demo" data-slide-to="3"></li>
+
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active imagen">
+                        <img style="height: 490px; " src="../../../assets/ale.jpeg">
+                    </div>
+                    <div class="carousel-item">
+                        <img style="height: 490px; " src="../../../assets/rishi.jpeg" alt="chuleta">
+                    </div>
+                    <div class="carousel-item">
+                        <img style="height: 490px; " src="../../../assets/sinahi.jpeg" alt="chicharron">
+                    </div>
+
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next " href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+        <!--DIV ROW CARROUSEL-->
+    </div>
+
+
+</body>
+
+</html>
