@@ -4,10 +4,15 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './componentes/home/home.component';
+
 import { DescripcionComponent } from './componentes/descripcion/descripcion.component';
 import { DescripcionaguasComponent } from './componentes/descripcionaguas/descripcionaguas.component';
 import { DescripciontortasComponent } from './componentes/descripciontortas/descripciontortas.component';
 import { DescripciondonasComponent } from './componentes/descripciondonas/descripciondonas.component';
+import { AgregarproductosComponent } from './componentes/agregarproductos/agregarproductos.component';
+import { CrearproductosComponent } from './componentes/crearproductos/crearproductos.component';
+import { EditarproductoComponent } from './componentes/editarproducto/editarproducto.component';
+
 
 
 //IMPORTAR
@@ -19,8 +24,10 @@ import { DescripciondonasComponent } from './componentes/descripciondonas/descri
     DescripcionComponent,
     DescripcionaguasComponent,
     DescripciontortasComponent,
-    DescripciondonasComponent
-   
+    DescripciondonasComponent,
+    AgregarproductosComponent,
+    CrearproductosComponent,
+    EditarproductoComponent
   ],
   imports: [
     BrowserModule,

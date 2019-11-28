@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tus Productos</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <style>
+
+        .form {
+            margin-left: 688px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <table>
+            <tr>
+               <td>
+                    <a class="navbar-brand ml-2" href="#">
+                            <img src="./../../../assets/Logoeats-grande.png" alt="logo" style="width:140px;">
+                        </a>
+               </td>
+              <td class="bg-dark">
+                  <nav class="navbar navbar-expand-sm navbar-dark">
+                    <ul class="navbar-nav  ml-2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link 3</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline form" action="/action_page.php">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Busca algo de interes">
+                        <button class="btn btn-primary" type="submit">Buscar</button>
+                    </form>
+                </nav>
+                </td>  
+            </tr>
+        </table>
+<div style="width: auto;">
+    <div class="mr-2 d-flex flex-row-reverse">
+        <a href="../crearproductos/crearproductos.component.html">
+        <button class="btn btn-primary  mt-2">
+            <img src='./../../../assets/productos.png' width="40px" />
+            Agregar Producto
+        </button>
+    </a>
+    </div>
+    <div class="row ml-1 mr-1 mt-2">
+        <div class="card col-lg-4 col-md-6 col-sm-12 col-xs-12 ">
+            <br>
+            <img class="card-img-top" style="height:300px"
+                src="./../../../assets/aguajamaica.jpg"
+                alt="aguaJamaica">
+            <div class="card-body">
+                <h4 class="card-title">Agua de Jamaica</h4>
+                <p class="card-text">Disfruta de una rica agua que nos ofrece la flor de Jamaica</p>
+                <p class="text-success">Precio: 15.00</p>
+                <p class="text-danger">Horario: 10:00-15:00</p>
+                <p class="text-warning">Dias disponibles: Lunes, Martes y Miercoles</p>
+                <p class="text-dark">Localizacion: Entrada principal del Tec (Av. Tecnologico)</p>
+                <p class="text-muted">Observaciones: 0.5 litro de agua</p>
+                <a href="../editarproducto/editarproducto.component.html" class="btn btn-primary">Editar</a>
+                <a href="#" class="btn btn-danger">Eliminar</a>
+            </div>
+        </div>
+        <div class="card col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                <br>
+                <img class="card-img-top" style="height:300px"
+                    src="./../../../assets/aguajamaica.jpg"
+                    alt="aguaJamaica">
+                <div class="card-body">
+                    <h4 class="card-title">Agua de Jamaica</h4>
+                    <p class="card-text">Disfruta de una rica agua que nos ofrece la flor de Jamaica</p>
+                    <p class="text-success">Precio: 20.00</p>
+                    <p class="text-danger">Horario: 10:00-15:00</p>
+                <p class="text-warning">Dias disponibles: Lunes, Martes y Miercoles</p>
+                <p class="text-dark">Localizacion: Entrada principal del Tec (Av. Tecnologico)</p>
+                    <p class="text-muted">Observaciones: 1 litro de agua</p>
+                    <a href="#" class="btn btn-primary">Editar</a>
+                    <a href="#" class="btn btn-danger">Eliminar</a>
+                </div>
+            </div>
+            <div class="card col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                    <br>
+                    <img class="card-img-top" style="height:300px"
+                        src="./../../../assets/agualimon.jpg"
+                        alt="aguaJamaica">
+                    <div class="card-body">
+                        <h4 class="card-title">Agua de Limón</h4>
+                        <p class="card-text">Disfruta de una rica agua de limón</p>
+                        <p class="text-success">Precio: 15.00</p>
+                        <p class="text-danger">Horario: 10:00-15:00</p>
+                <p class="text-warning">Dias disponibles: Lunes, Martes y Miercoles</p>
+                <p class="text-dark">Localizacion: Entrada principal del Tec (Av. Tecnologico)</p>
+                        <p class="text-muted">Observaciones: 0.5 litro de agua</p>
+                        <a href="#" class="btn btn-primary">Editar</a>
+                        <a href="#" class="btn btn-danger">Eliminar</a>
+                    </div>
+                </div>
+    </div> <!-- CIERRE DIV ROW-->
+    <div class="row ml-1 mr-1">
+        <div class="card col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <br>
+            <img class="card-img-top" style="height:300px"
+                src="./../../../assets/agualimon.jpg"
+                alt="aguaJamaica">
+            <div class="card-body">
+                <h4 class="card-title">Agua de Limón</h4>
+                <p class="card-text">Disfruta de una rica agua de limón</p>
+                <p class="text-success">Precio: 20.00</p>
+                <p class="text-danger">Horario: 10:00-15:00</p>
+                <p class="text-warning">Dias disponibles: Lunes, Martes y Miercoles</p>
+                <p class="text-dark">Localizacion: Entrada principal del Tec (Av. Tecnologico)</p>
+                <p class="text-muted">Observaciones: 1 litro de agua</p>
+                <a href="#" class="btn btn-primary">Editar</a>
+                <a href="#" class="btn btn-danger">Eliminar</a>
+            </div>
+        </div>
+        <div class="card col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                <br>
+                <img class="card-img-top" style="height:300px"
+                    src="./../../../assets/aguahorchata.jpg"
+                    alt="aguaJamaica">
+                <div class="card-body">
+                    <h4 class="card-title">Agua de Horchata</h4>
+                    <p class="card-text">Disfruta de una rica agua de horchata</p>
+                    <p class="text-success">Precio: 15.00</p>
+                    <p class="text-danger">Horario: 10:00-15:00</p>
+                <p class="text-warning">Dias disponibles: Lunes, Martes y Miercoles</p>
+                <p class="text-dark">Localizacion: Entrada principal del Tec (Av. Tecnologico)</p>
+                    <p class="text-muted">Observaciones: 0.5 litro de agua</p>
+                    <a href="#" class="btn btn-primary">Editar</a>
+                    <a href="#" class="btn btn-danger">Eliminar</a>
+                </div>
+            </div>
+            <div class="card col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                    <br>
+                    <img class="card-img-top" style="height:300px"
+                    src="./../../../assets/aguahorchata.jpg"
+                    alt="aguaJamaica">
+                <div class="card-body">
+                    <h4 class="card-title">Agua de Horchata</h4>
+                    <p class="card-text">Disfruta de una rica agua de horchata</p>
+                    <p class="text-success">Precio: 20.00</p>
+                    <p class="text-danger">Horario: 10:00-15:00</p>
+                <p class="text-warning">Dias disponibles: Lunes, Martes y Miercoles</p>
+                <p class="text-dark">Localizacion: Entrada principal del Tec (Av. Tecnologico)</p>
+                    <p class="text-muted">Observaciones: 1 litro de agua</p>
+                    <a href="#" class="btn btn-primary">Editar</a>
+                    <a href="#" class="btn btn-danger">Eliminar</a>
+                </div>
+                </div>
+    </div> <!-- CIERRE DIV ROW-->
+    <ul class="pagination justify-content-center mt-2 mb-2">
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0);">Next</a></li>
+      </ul>
+      <div class="pie">
+          <h1 align-center>Tec Eats</h1>      
+          <p>Todos los derechos reservados</p>
+      </div>
+</div>
+</body>
+
+</html>
