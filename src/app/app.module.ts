@@ -6,11 +6,14 @@ import { AppComponent } from './app.component';
 
 import { AboutComponent } from './componentes/about/about.component';
 import { HomeComponent } from './componentes/home/home.component';
+
+import { DescripcionComponent } from './componentes/descripcion/descripcion.component';
+import { DescripcionaguasComponent } from './componentes/descripcionaguas/descripcionaguas.component';
+import { DescripciontortasComponent } from './componentes/descripciontortas/descripciontortas.component';
+import { DescripciondonasComponent } from './componentes/descripciondonas/descripciondonas.component';
 import { AgregarproductosComponent } from './componentes/agregarproductos/agregarproductos.component';
 import { CrearproductosComponent } from './componentes/crearproductos/crearproductos.component';
 import { EditarproductoComponent } from './componentes/editarproducto/editarproducto.component';
-
-
 //IMPORTAR
 
 @NgModule({
@@ -18,6 +21,10 @@ import { EditarproductoComponent } from './componentes/editarproducto/editarprod
     AppComponent,
     AboutComponent,
     HomeComponent,
+    DescripcionComponent,
+    DescripcionaguasComponent,
+    DescripciontortasComponent,
+    DescripciondonasComponent,
     AgregarproductosComponent,
     CrearproductosComponent,
     EditarproductoComponent
