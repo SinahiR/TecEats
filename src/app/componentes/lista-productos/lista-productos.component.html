@@ -1,0 +1,14 @@
+<form (ngSubmit)="addProductos()">
+
+   <input type="text" name="name" [(ngModel)]="productoss.name" placeholder="Nombre Producto">
+   <input type="text" name="descripcion" [(ngModel)]="productoss.descripcion" placeholder="Descripcion/Producto">
+   <input type="number" name="price" [(ngModel)]="productoss.price" placeholder="Precio$" step="0.01">
+   <input type="file" accept=".png,.jpg"  (change)="onUpload($event)"> 
+   
+
+   <button type="submit">
+      Guardar Comida
+   </button>
+
+
+</form>
