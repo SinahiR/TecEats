@@ -10,14 +10,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <style>
-        body {
-            margin: 20px
-        }
-
-        .form {
-            margin-left: 650px;
-
-        }
         #editarow
         {
             width: 1000px;
@@ -28,31 +20,36 @@
 
 <body>
     <!--NAVBAR-->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-
-        <a class="navbar-brand" href="#">
-            <img src="./../../../assets/Logoeats-grande.png" alt="logo" style="width:140px;">
-        </a>
-
-        <!-- Links -->
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link 1</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link 2</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link 3</a>
-            </li>
-        </ul>
-
-        <!--FORMULARIO DE BUSQUEDA-->
-        <form class="form-inline form" action="/action_page.php">
-            <input class="form-control mr-sm-2" type="text" placeholder="Busca algo de interes">
-            <button class="btn btn-success" type="submit">Buscar</button>
-        </form>
-    </nav>
+    <nav class="navbar navbar-expand-sm" style="margin-top: -12px;">
+            <a class="navbar-brand ml-2" href="#">
+                <img src="./../../../assets/Logoeats-grande2.png" alt="logo" style="width:170px; height: 94px;">
+            </a>
+            <ul class="navbar-nav"
+                style="margin-left: -17px; width: 572px; background-image: url('./../../../assets/barranav.png'); height: 73px;">
+                <li class="nav-item" style="width: 60px;">
+                    <a class="nav-link " href="../home/home.component.html"
+                        style="margin-left: 20px; margin-top: 15px; color: white; ">Home</a>
+                </li>
+                <li class="nav-item" style="text-align: center; width: 120px;">
+                    <a class="nav-link" href="../productos/productos.component.html"
+                        style=" margin-left: 25px; margin-top: 15px; color: white;">Productos</a>
+                </li>
+                <li class="nav-item" style="text-align: center; width: 120px;">
+                    <a class="nav-link" href="../promociones/promociones.component.html"
+                        style=" margin-left: 15px; margin-top: 15px; color: white;">Promociones</a>
+                </li>
+                <li class="nav-item" style="text-align: center; width: 120px;">
+                    <a class="nav-link" href="../about/about.component.html"
+                        style=" margin-left: 20px; margin-top: 15px; color: white;">Acerca
+                        de</a>
+                </li>
+                <li class="nav-item" style="width: 130px; text-align: center; ">
+                    <a class="nav-link" href="#" style="margin-left: -10px; margin-top: 15px; color: white;">Iniciar
+                        Sesion</a>
+                </li>
+    
+            </ul>
+        </nav>
     <div class="m-3 col-12 row ">
             <a href="../agregarproductos/agregarproductos.component.html">
         <img src="./../../../assets/backto.png" width="30" height="30">

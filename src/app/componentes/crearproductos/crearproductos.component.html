@@ -17,15 +17,15 @@
         #imagenfondo
         {
             background-image:url('https://i.pinimg.com/564x/c3/58/10/c358109b7d68a685f6e86ac3cb313342.jpg');
-            min-height: 100vh;
+            min-height: 60vh;
             background-position: center;
         }
         #imagenfondo:before
         {
             content: '';
             background: linear-gradient(#ffffff 50%, #ffffff 50%);
-            width: 1310px;
-            min-height: 100vh;
+            width: 1320px;
+            min-height: 60vh;
             position: absolute;
             opacity: .5;
             z-index: 0;
@@ -43,55 +43,53 @@
             color: #000000;
             text-align: center;
         }
-        .fondonav
-        {
-            background-color: rgb(145, 201, 198);
-        }
     </style>
 </head>
 
 <body>
-        <table>
-                <tr>
-                   <td>
-                        <a class="navbar-brand ml-2" href="#">
-                                <img src="./../../../assets/Logoeats-grande.png" alt="logo" style="width:140px;">
-                            </a>
-                   </td>
-                  <td class="bg-dark">
-                      <nav class="navbar navbar-expand-sm navbar-dark">
-                        <ul class="navbar-nav  ml-2">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link 1</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link 2</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link 3</a>
-                            </li>
-                        </ul>
-                        <form class="form-inline form" action="/action_page.php">
-                            <input class="form-control mr-sm-2" type="text" placeholder="Busca algo de interes">
-                            <button class="btn btn-primary" type="submit">Buscar</button>
-                        </form>
-                    </nav>
-                    </td>  
-                </tr>
-            </table>
+        <nav class="navbar navbar-expand-sm" style="margin-top: -12px;">
+                <a class="navbar-brand ml-2" href="#">
+                    <img src="./../../../assets/Logoeats-grande2.png" alt="logo" style="width:170px; height: 94px;">
+                </a>
+                <ul class="navbar-nav"
+                    style="margin-left: -17px; width: 572px; background-image: url('./../../../assets/barranav.png'); height: 73px;">
+                    <li class="nav-item" style="width: 60px;">
+                        <a class="nav-link " href="../home/home.component.html"
+                            style="margin-left: 20px; margin-top: 15px; color: white; ">Home</a>
+                    </li>
+                    <li class="nav-item" style="text-align: center; width: 120px;">
+                        <a class="nav-link" href="../productos/productos.component.html"
+                            style=" margin-left: 25px; margin-top: 15px; color: white;">Productos</a>
+                    </li>
+                    <li class="nav-item" style="text-align: center; width: 120px;">
+                        <a class="nav-link" href="../promociones/promociones.component.html"
+                            style=" margin-left: 15px; margin-top: 15px; color: white;">Promociones</a>
+                    </li>
+                    <li class="nav-item" style="text-align: center; width: 120px;">
+                        <a class="nav-link" href="../about/about.component.html"
+                            style=" margin-left: 20px; margin-top: 15px; color: white;">Acerca
+                            de</a>
+                    </li>
+                    <li class="nav-item" style="width: 130px; text-align: center; ">
+                        <a class="nav-link" href="#" style="margin-left: -10px; margin-top: 15px; color: white;">Iniciar
+                            Sesion</a>
+                    </li>
+        
+                </ul>
+            </nav>  
     <div class="col-12 mb-2 mt-1">
             <a href="../agregarproductos/agregarproductos.component.html">
         <img src="./../../../assets/backto.png" width="30" height="30">
         </a>
      </div>
-     <div id="imagenfondo" class="ml-4 mr-4">
+     <div id="imagenfondo" class="ml-4 mr-4 mb-1">
          <br>
          <!--<div class="col-12 mb-2 mt-1">
                 <a href="../agregarproductos/agregarproductos.component.html">
             <img src="./../../../assets/backto.png" width="30" height="30">
             </a>
          </div>-->
-         <div class="container" id="Formulario">
+         <div class="container " id="Formulario">
              <br>
              <h2 >Crear un Producto</h2>
 
@@ -99,31 +97,24 @@
                 <div class="row m-1">
                  <h6 class="col-5">Nombre del producto</h6><input type="text" class="col-6 border">
                 </div>
-                <br>
                 <div class="row m-1">
                         <h6 class="col-5">Presentación</h6><input type="text" class="col-6 border">
                        </div>
-                       <br>
                        <div class="row m-1">
                             <h6 class="col-5">Precio</h6><input type="number" class="col-6 border">
                            </div>
-                           <br>
                            <div class="row m-1">
                                 <h6 class="col-5">Horario</h6><input type="text" class="col-6 border">
                                </div>
-                               <br>
                                <div class="row m-1">
                                     <h6 class="col-5">Disponibilidad (Dias)</h6><input type="text" class="col-6 border">
                                    </div>
-                                   <br>
                                    <div class="row m-1">
                                         <h6 class="col-5">Localizacion</h6><input type="text" class="col-6 border">
                                        </div>
-                                       <br>
                                        <div class="row m-1">
                                             <h6 class="col-5">Observaciones</h6><input type="text" class="col-6 border">
                                            </div>
-                                           <br>
                                            <div class="row m-1 col-12">
                                                 <button class="btn btn-primary">
                                                     Agregar
@@ -133,9 +124,5 @@
              </form>
          </div>
      </div>
-     <div class="text-light mt-2" style="background-color:royalblue; width: auto; height: 100px;">
-            <h1 align-center>Tec Eats</h1>      
-            <p>Todos los derechos reservados</p>
-        </div>
     </body>
     </html>

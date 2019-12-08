@@ -14,6 +14,8 @@ import { DescripciondonasComponent } from './componentes/descripciondonas/descri
 import { AgregarproductosComponent } from './componentes/agregarproductos/agregarproductos.component';
 import { CrearproductosComponent } from './componentes/crearproductos/crearproductos.component';
 import { EditarproductoComponent } from './componentes/editarproducto/editarproducto.component';
+import { ProductosComponent } from './componentes/productos/productos.component';
+import { PromocionesComponent } from './componentes/promociones/promociones.component';
 //IMPORTAR
 
 @NgModule({
@@ -27,7 +29,9 @@ import { EditarproductoComponent } from './componentes/editarproducto/editarprod
     DescripciondonasComponent,
     AgregarproductosComponent,
     CrearproductosComponent,
-    EditarproductoComponent
+    EditarproductoComponent,
+    ProductosComponent,
+    PromocionesComponent
 
   ],
   imports: [
