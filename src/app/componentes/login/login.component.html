@@ -29,31 +29,37 @@
                             <img src="./../../../assets/Logoeats.png" id="logo">
                            <h1>Inicio de Sesión</h1> 
                         </div>
-                        <div class="col-sm-8 seccion-principal">
+                        <div class="col-sm-12 seccion-principal">
                             <div class="modal-content">
                                 <div class="col-12 imagen-usuario">
                                     <img src="./../../../assets/usuario2.png">
                                 </div>
                                 <form action="" class="col-12">
                                     <div class="form-group" id="usuario">
-                                        <input type="text" class="form-control" placeholder="Nombre de usuario">
+                                        <input type="email" name="email"  class="form-control" [(ngModel)]="user.email" placeholder="@" required>
                 
                                     </div>
                                     <div class="form-group" id="contrasena">
-                                        <input type="password" class="form-control" placeholder="Contraseña">
+                                        <input name="password" type="password" [(ngModel)]="user.password" placeholder="*****" required class="form-control" >
                 
                                     </div>
                                     
-                                    <button type="submit" class="btn btn-secondary"><i class="fas fa-sign-in-alt"></i> Ingresar</button>
-                
+                                    <button type="submit" class="btn btn-secondary " (click)="onLogin()"><i class="fas fa-sign-in-alt"></i> Ingresar</button>
+                                    <button expand="block" size="large"  (click)="onLoginGoogle()" class="btn  btn-danger"><i class="fab fa-google-plus-g"></i>
+                                        Google
+                                      </button>
+                                      <button expand="block" size="large" class="btn  btn-dark" (click)="onLoginGit()"> <i class="fab fa-github-square"></i>
+                                        GitHub
+                                      </button>
+                                      <button expand="block" size="large" class="btn  btn-primary" (click)="onLoginFacebook()"> <i class="fab fa-facebook-square"></i>
+                                       Facebook
+                                      </button>
+                                      <button expand="block" size="large"   class="btn  btn-info" (click)="onLoginTwiter()"> <i class="fab fa-twitter"></i>
+                                        Twiter
+                                       </button>
                 
                                 </form>
-                                <div class="col-12 registro">
-                                    <a href="#">Registrarse</a>
-                
-                                </div>
-                
-                
+                              
                             </div>
                 
                         </div>
@@ -77,33 +83,21 @@
                                 </div>
                                 <form action="" class="col-12">
                                     <div class="form-group" id="usuario">
-                                        <input type="text" class="form-control" placeholder="Nombre de usuario" required>
+                                        <input type="email" name="email" [(ngModel)]="user.email" class="form-control" placeholder="@" required>
                 
                                     </div>
                                     <div class="form-group" id="contrasena">
-                                        <input type="password" class="form-control" placeholder="*****"  required>
-                
-                                    </div>
-                                    <div class="form-group" id="contrasena">
-                                        <input type="password" class="form-control" placeholder="Confirmar/contraseña" required>
+                                        <input name="password" type="password" [(ngModel)]="user.password" class="form-control" placeholder="*****"  required>
                 
                                     </div>
                 
-                                    <div class="form-group" id="numero">
-                                        <input type="number" placeholder="+52....." class="form-control" required >
-                                    </div>
                 
                 
-                
-                                    <button type="submit" class="btn btn-secondary"><i class="fas fa-sign-in-alt"></i>
+                                    <button type="submit" class="btn btn-secondary" (click)="onRegister()"><i class="fas fa-sign-in-alt"></i>
                                         Registrate</button>
                 
                 
                                 </form>
-                                <div class="col-12 registro">
-                                    <a href="#">Registrarse</a>
-                
-                                </div>
                 
                 
                             </div>
